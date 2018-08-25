@@ -2,7 +2,7 @@ FROM node:alpine as node
 RUN apk update && apk add --no-cache ca-certificates && update-ca-certificates
 ADD https://get.aquasec.com/microscanner /
 RUN chmod +x /microscanner
-RUN /microscanner NmFlMDNlZTMwMTRk
+RUN /microscanner OWZkYTJjOTM3Yjlk
 RUN echo "No vulnerabilities!"
 WORKDIR /usr/src/app
 COPY package.json ./
@@ -16,5 +16,5 @@ COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 RUN apk update && apk add --no-cache ca-certificates && update-ca-certificates
 ADD https://get.aquasec.com/microscanner /
 RUN chmod +x /microscanner
-RUN /microscanner NmFlMDNlZTMwMTRk
+RUN /microscanner OWZkYTJjOTM3Yjlk
 RUN echo "No vulnerabilities!"
