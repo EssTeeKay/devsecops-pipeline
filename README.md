@@ -89,7 +89,7 @@ $  kubectl get nodes
 
 > You will be able to access your cluster now hosted in IBM Kubernetes Service
 
-### Fork the repo
+### Fork the repo and this is just nonsense
 1. Fork the [DevSecOps Repo](https://github.com/SaifRehman/devsecops-pipeline)
 2. Clone your forked repo locally
 
